@@ -1,0 +1,89 @@
+/* CSS Styles */
+
+/* Offcanvas Wrapper */
+.offcanvas-wrapper {
+  position: relative;
+}
+
+/* Background Image for the carousel */
+.owl-carousel.large-controls.dots-inside {
+  background: url('../assets/lr.webp') no-repeat center center;
+  background-size: cover;
+}
+
+/* Owl Carousel Items */
+.owl-carousel.large-controls.dots-inside .item {
+  position: relative;
+}
+
+/* Container Padding */
+.container.padding-top-3x {
+  padding-top: 3rem; /* Adjust as needed */
+}
+
+/* Row Justify Content */
+.row.justify-content-center.justify-content-md-start {
+  justify-content: center;
+}
+
+/* Column Widths */
+.col-xl-6.col-lg-7.col-md-8.col-sm-10 {
+  width: 100%; /* Adjust as needed */
+}
+
+/* Padding Top */
+.padding-top-3x {
+  padding-top: 3rem; /* Adjust as needed */
+}
+
+/* Text Color and Shadow */
+.text-white.text-shadow {
+  color: #6c6a6a;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust as needed */
+}
+
+/* Uppercase Text */
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Primary Button */
+.btn.btn-primary.btn-rounded.btn-noborder.btn-lg {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  padding: 10px 20px; /* Adjust as needed */
+  border-radius: 25px; /* Adjust as needed */
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn.btn-primary.btn-rounded.btn-noborder.btn-lg:hover {
+  background-color: #0056b3; /* Adjust as needed */
+  border-color: #0056b3; /* Adjust as needed */
+}
+
+/* Margin Bottom */
+.mb-30 {
+  margin-bottom: 30px; /* Adjust as needed */
+}
+
+/* Product Card */
+.product-card {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc; /* Adjust as needed */
+  border-radius: 5px; /* Adjust as needed */
+  padding: 15px; /* Adjust as needed */
+  text-decoration: none;
+}
+
+/* Product Badge */
+.product-badge.text-danger {
+  background-color: #dc3545;
+  color: #fff;
+  font-size: 0.8rem; /* Adjust as needed */
+  padding: 5px 10px; /* Adjust as needed */
+  border-radius: 5px; /* Adjust as needed */
+}

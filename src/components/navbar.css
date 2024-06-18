@@ -1,0 +1,63 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar logo */
+.navbar-logo a {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Navbar links container */
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar links */
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+/* Navbar links hover effect */
+.navbar-links a:hover {
+  color: #ff6347; /* Change to a color that fits your theme */
+}
+
+/* Shopping cart icon */
+.navbar-links svg {
+  margin-left: 15px;
+  transition: transform 0.3s ease;
+}
+
+/* Shopping cart icon hover effect */
+.navbar-links a:hover svg {
+  transform: scale(1.1);
+}
+
+/* Favorite link */
+.navbar-links a.favorite-link {
+  color: #fff;
+  margin-right: 15px; /* Adjust spacing as needed */
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Favorite link hover effect */
+.navbar-links a.favorite-link:hover {
+  color: #ff6347; /* Change to a color that fits your theme */
+}

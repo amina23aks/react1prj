@@ -1,0 +1,61 @@
+/* Add these styles to your existing Home.css file */
+
+.favorite {
+  width: 50%;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* Adjust as needed */
+}
+
+.favorite h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.favorite-items {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.favorite-item {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.favorite-item .fav {
+  text-align: center;
+}
+
+.favorite-item img {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.favorite-item p{
+  color: white;
+  font-size: 1.2rem;
+}
+
+
+.btn button {
+  width: 150px;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
